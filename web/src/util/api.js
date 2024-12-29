@@ -20,7 +20,8 @@ import qs from 'qs'
 
 var HANDLE = null;
 if (process.env.NODE_ENV === 'development') {
-    HANDLE = '/handle/'
+    // HANDLE = '/handle/'
+    HANDLE = 'http://127.0.0.1:5002/WeBASE-Front/'
 } else {
     HANDLE = '';
 }
